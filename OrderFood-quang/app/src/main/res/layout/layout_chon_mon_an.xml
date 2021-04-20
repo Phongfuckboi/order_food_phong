@@ -8,9 +8,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:numColumns="2"/>
+
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Xong"
-        android:id="@+id/btn_chon_mon_xong"/>
+
+        android:id="@+id/btn_chon_mon_xong"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:background="@drawable/custom_button"
+        android:layout_gravity="center"
+        android:text="Xong" />
 </LinearLayout>
